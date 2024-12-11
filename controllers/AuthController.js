@@ -54,7 +54,7 @@ exports.googleAuthCallback = (req, res, next) => {
             }
             req.session.userId = existingUser._id; 
 
-            return res.redirect('http://localhost:3000/'); 
+            return res.redirect('http://eshanivacationhome.com'); 
         });
     })(req, res, next);
 };
