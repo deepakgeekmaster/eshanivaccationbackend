@@ -28,7 +28,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors({
-  origin: 'https://eshanivacationhome.com',
+  origin: 'http://www.eshanivacationhome.com',
   methods: 'GET,POST',
   allowedHeaders: 'Content-Type, Authorization',
   credentials: true,    // Allow requests only from this origin
